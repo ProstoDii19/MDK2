@@ -1,0 +1,22 @@
+﻿<Window x:Class="Otkritka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Otkritka"
+        mc:Ignorable="d"
+                Title="MainWindow" Height="450" Width="1000">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <local:OtkritkaControl Header="Поздравление 1" Description="С днём рождения!" ColoredSource="/Photos/11111.jpg" ></local:OtkritkaControl>
+            <local:OtkritkaControl Header="Поздравление 2" Description="С новым годом!" ColoredSource="/Photos/22222.jpg" ></local:OtkritkaControl>
+            <local:OtkritkaControl Header="Поздравление 3" Description="С 8 марта!" ColoredSource="/Photos/33333.jpg" ></local:OtkritkaControl>
+            <local:OtkritkaControl Header="Поздравление 4" Description="С 23 февраля!" ColoredSource="/Photos/44444.jpg" ></local:OtkritkaControl>
+        </StackPanel>
+    </Grid>
+</Window>
+
+
+
+
+
